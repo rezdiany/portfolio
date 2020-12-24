@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <script src="https://kit.fontawesome.com/9565ccb9d1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/icon.svg">
+    <title>Rezdian Portofolio</title>
+</head>
+
+<body>
+    <!--Creating Menu Tabs & Logo at Top Using HTML-->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <!--Creating Banner Layout in HTML-->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Rezdian Yursandi</span></h2>
+            <h3>I'm a Full Stack Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <!--Creating About Me Layout in HTML-->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/pp.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i ?</h3>
+                <h2>I'm <b>Rezdian Yursandi</b>, a visual UI/UX Desginer and Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis augue a ante feugiat
+                    rhoncus. Nunc volutpat ante in augue tristique, at venenatis ligula convallis. Integer ullamcorper
+                    consequat magna, eu malesuada sapien. </p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis augue a ante feugiat
+                    rhoncus. Nunc volutpat ante in augue tristique, at venenatis ligula convallis. Integer ullamcorper
+                    consequat magna, eu malesuada sapien. </p>
+                <div class="heading bottom">
+                    <a href="images/CV.pdf" target="__blank" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Rezdian Yursandi<br>
+                        <b>Age</b> 22
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> rezdiany@gmail.com<br>
+                        <b>Location</b> Jakarta
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Creating Services Layout in HTML-->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Services i Offer to My Clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-globe fa-4x"></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>Wordpress Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>Android Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cogs fa-4x"></i>
+                <h3>Machine Learning</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-mug-hot fa-4x"></i>
+                <h3>Java Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-apple fa-4x"></i>
+                <h3>iOS Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+    <!--Creating Work Layout in HTML-->
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Courses</h2>
+            <p>Showcasing some of my <b>Courses</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://progate.com/" target="__blank">
+                    <img src="images/fend.png">
+                    <p>Pelatihan Coding secara Daring Front End</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://dilo.id/" target="__blank">
+                    <img src="images/flutter.png">
+                    <p>Flutter For Beginner</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://progate.com/" target="__blank">
+                    <img src="images/java.png">
+                    <p>Kursus Java</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://www.dicoding.com/" target="__blank">
+                    <img src="images/mesin.png">
+                    <p>Belajar Machine Learning untuk Pemula</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://www.dicoding.com/" target="__blank">
+                    <img src="images/swift.png">
+                    <p>Memulai Pemrograman dengan Swift</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://progate.com/" target="__blank">
+                    <img src="images/web.PNG">
+                    <p>Path Pengembangan Web (Node.Js)</p>
+                </a>
+            </div>
+        </div>
+        <div class="heading">
+            <a href="https://id.linkedin.com/in/rezdian-yursandi-180162160" target="__blank" class="btn"
+                style="background-color: firebrick;">View All My Courses</a>
+        </div>
+    </section>
+    <!--Creating Testimonial Layout in HTML-->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my Friends think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Rezdian did an excellent creative job, addressing our request quickly, and also providing his own
+                    graphic insight, being open to feedback and changes or edits when they arose. He worked with us the
+                    entire way. Highly recommended.</p>
+                <h3>Zahra Zhafira<br>UI Gizi</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one
+                    simple about myself with Responsive Design. Thanks Rezdian</p>
+                <h3>Alwi Aldiansyach<br>UHAMKA IT</h3>
+            </div>
+        </div>
+    </section>
+    <!--Creating Contact Layout in HTML-->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address :</h3>
+                            <address>JL.BDN 1 UJUNG NO.01 RT.001/013 <br>12430<br>
+                                Cilandak Barat, Cilandak.<br>
+                                Jakarta Selatan, DKI Jakarta</address>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone No :</h3>
+                            <p>0851xxxxxx86</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address :</h3>
+                            <p>rezdiany@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="__blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/" target="__blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com/" target="__blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="__blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" rows="6" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Creating Footer Layout in HTML-->
+    <footer class="copyright">
+        <p>&copy; 2020, Rezdian.com, Allrights Reserved</p>
+    </footer>
+</body>
+
+</html>
